@@ -1,40 +1,24 @@
 body {
     height: 100vh;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .header,
 .footer {
+    flex-shrink: 0;
+    align-items: center;
+    margin-left: 32px;
     display: flex;
+    padding: 12px;
     justify-content: space-between;
-    padding: 16px;
 }
 
-.header {
+.left {
     font-weight: bold;
     font-size: 24px;
-    padding: 0px 32px 20px;
-    gap: 12px;
-    height: 72px;
-    background: #1F2937;
-    color: white;
-}
-
-.main_content {
-    
-}
-
-.left,
-.right {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.right {
-    font-weight: 100;
-    font-size: 70%
 }
 
 ul {
@@ -44,7 +28,6 @@ ul {
     padding: 0;
     gap: 16px;
 }
-
 
 
 
