@@ -31,7 +31,7 @@ ul {
 
 .container {
     margin: 0;
-    padding: 32px;
+    padding: 24px;
     display: flex;
     justify-content: center;
     align-items: left;
@@ -39,16 +39,44 @@ ul {
 }
 
 .main_content {
+    padding: 0;
     display: flex;
     flex-direction: column;
     max-width: 400px;
+    
 }
 
 .maintitle {
+    margin-bottom: -50px;
     font-weight: 900;
+    font-size: 48px;
+    /* color: #F9FAF8; */
 }
 
+.randoinfo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #353e4b;
+}
 
+.container2 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card,
+.infocard {
+    margin: 10px;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.infocard {
+    text-align: center;
+    max-width: 150px;
+}
 
 
 
