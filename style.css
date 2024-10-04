@@ -29,5 +29,26 @@ ul {
     gap: 16px;
 }
 
+.container {
+    margin: 0;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 60px;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.maintitle {
+    font-weight: 900;
+}
+
+
+
 
 
