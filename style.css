@@ -6,6 +6,10 @@ body {
 
 }
 
+img {
+    border-radius: 10px;
+}
+
 .header,
 .footer {
     flex-shrink: 0;
@@ -78,5 +82,19 @@ ul {
     max-width: 150px;
 }
 
+.quote {
+    justify-content: center;
+    text-align: left;
+    max-width: 1000px;
+    font-size: 36px;
+    
+    font-style: italic;
+    color: #1F2937;
+}
 
+.author {
+    text-align: right;
+    font-weight: bold;
+
+}
 
