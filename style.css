@@ -23,6 +23,7 @@ img {
 .left {
     font-weight: bold;
     font-size: 24px;
+
 }
 
 ul {
@@ -31,6 +32,11 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 .container {
@@ -54,7 +60,7 @@ ul {
     margin-bottom: -50px;
     font-weight: 900;
     font-size: 48px;
-    /* color: #F9FAF8; */
+    color: #F9FAF8;
 }
 
 .randoinfo {
@@ -64,7 +70,8 @@ ul {
     color: #353e4b;
 }
 
-.container2 {
+.container2,
+.action {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -96,5 +103,18 @@ ul {
     text-align: right;
     font-weight: bold;
 
+}
+
+.blueheader {
+    margin-top: -50px;
+    padding: 0;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
